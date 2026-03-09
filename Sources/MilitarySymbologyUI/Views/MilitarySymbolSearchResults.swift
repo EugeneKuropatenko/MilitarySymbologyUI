@@ -56,7 +56,7 @@ public struct MilitarySymbolSearchResults: View {
 //            }, description: {
 //                Text("No results for '\(searchText)'", bundle: .militarySymbologyKit, comment: comment)
 //            })
-            Text("No results)
+            Text("No results")
         case .showResults:
             MilitarySymbolForEach(for: searchResults) { selectedSymbol in
                 self.selectedSymbol = selectedSymbol
